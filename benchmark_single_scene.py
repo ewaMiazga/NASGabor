@@ -14,7 +14,7 @@ parser.add_argument(
 parser.add_argument(
     "--images", required=True, help="Image set to use (e.g. 'images_2' or 'images_4')"
 )
-parser.add_argument("--iterations", default="30000")
+parser.add_argument("--iterations", default="2")
 
 args = parser.parse_args()
 
@@ -179,10 +179,3 @@ def run_scene(scene, images, cap_max):
 
 
 run_scene(args.scene, args.images, CAP_MAX_BETA_SPLATTING.get(args.scene, 300_000))
-
-from aggregate_json_results import main as aggregate_main
-
-# construct args for aggregate_main
-aggregate_main()
-
-print("\nAll scenes finished.")
