@@ -14,7 +14,7 @@ parser.add_argument(
 parser.add_argument(
     "--images", required=True, help="Image set to use (e.g. 'images_2' or 'images_4')"
 )
-parser.add_argument("--iterations", default="2")
+parser.add_argument("--iterations", default="30000")
 
 args = parser.parse_args()
 
