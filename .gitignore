@@ -1,0 +1,47 @@
+*.pyc
+.vscode
+build
+*.egg-info
+core_nid*
+
+__pycache__
+scripts
+commands.md
+try-*
+aggregate_json_results.py
+aggregate_m360_insights.py
+eval_mip360_indoor.py
+NASG_*
+NASGabor_*
+NG_eval_*
+output*
+
+# gsplat
+submodules/build/
+submodules/gsplat/__pycache__/
+submodules/gsplat/*.pyc
+submodules/gsplat/*.pyo
+submodules/gsplat/*.pyd
+submodules/gsplat/*.so
+
+# CMake / Build
+submodules/gsplat/build/
+submodules/gsplat/CMakeFiles/
+submodules/gsplat/CMakeCache.txt
+submodules/gsplat/Makefile
+submodules/gsplat/*.o
+submodules/gsplat/*.obj
+submodules/gsplat/*.exe
+submodules/gsplat/*.log
+submodules/gsplat/*.vs
+submodules/gsplat/*.idea
+submodules/gsplat/*.vscode/
+
+# CUDA / temp files
+submodules/gsplat/*.cubin
+submodules/gsplat/*.ptx
+submodules/gsplat/*.cuf
+submodules/gsplat/*.out
+
+# delete 
+lpipsPyTorch

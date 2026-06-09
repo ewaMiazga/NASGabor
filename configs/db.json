@@ -1,0 +1,6 @@
+{
+  "sh_lr": 0.00025,
+  "gmm_features_lr": 0.001,
+  "opacity_lr": 0.04,
+  "lobe_number": 1
+}

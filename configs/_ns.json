@@ -1,0 +1,7 @@
+{
+  "sh_lr": 0.00025,
+  "gmm_features_lr": 0.0025,
+  "opacity_lr": 0.06,
+  "sb_number": 1,
+  "white_background": true
+}
