@@ -1,7 +1,7 @@
+[![button](https://img.shields.io/badge/Project-Website-blue.svg?style=social&logo=Google-Chrome)](https://arcanous98.github.io/projectPages/beyondSH.html)
+[![button](https://img.shields.io/badge/Paper-arXiv-red.svg?style=social&logo=arXiv)](https://arxiv.org/abs/2606.09794v1)
+
 # Beyond Spherical Harmonics: Rethinking Appearance Models for Radiance Reconstruction
-<!-- 
-[![button](https://img.shields.io/badge/Project-Website-blue.svg?style=social&logo=Google-Chrome)]()
-[![button](https://img.shields.io/badge/Paper-arXiv-red.svg?style=social&logo=arXiv)]() -->
 
 <span class="author-block">
   <!-- <a href="https://www.linkedin.com/in/ewa-miazga/">Ewa Miazga</a>,
@@ -38,7 +38,7 @@ This project is built on top of the [Original DBS](https://github.com/RongLiu-Le
 
 1. **Clone the Repository:**
    ```shell
-   git clone https://github.com/ewaMiazga/NASGabor
+   git clone https://github.com/ewaMiazga/NASGabor.git
    cd NASGabor
    ```
 1. **Set Up the [Conda Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python):**

@@ -42,6 +42,3 @@ submodules/gsplat/*.cubin
 submodules/gsplat/*.ptx
 submodules/gsplat/*.cuf
 submodules/gsplat/*.out
-
-# delete 
-lpipsPyTorch

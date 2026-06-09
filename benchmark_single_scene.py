@@ -107,8 +107,7 @@ def run_scene(scene, images, cap_max):
 
     os.makedirs(output, exist_ok=True)
 
-    training_file = "/ritom/scratch/cscs/emiazga/NASGabor-release/train.py"
-    # training_file = "train.py"
+    training_file = "train.py"
 
     lr_info = {}
     cfg = _load_scene_config(args.dataset, scene)
